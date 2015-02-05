@@ -38,6 +38,7 @@
 class sqlwebapp (
   $sqldatadir    = 'C:\Program Files\Microsoft SQL Server\MSSQL12.MYINSTANCE\MSSQL\DATA',
   $docroot       = 'C:/inetpub/wwwroot',
+  $db_host       = 'server2012r2a',
   $db_instance   = 'MYINSTANCE',
   $iis_site      = 'Default Web Site',
   $file_source   = 'http://master.inf.puppetlabs.demo',
